@@ -4,3 +4,6 @@ resolver = "2"
 
 [workspace.dependencies]
 bevy = { version = "0.14.2" }
+
+[patch.crates-io]
+starknet-core = { git = "https://github.com/kariy/starknet-rs", branch = "dojo-patch" }

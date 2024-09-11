@@ -5,3 +5,7 @@ edition = "2021"
 
 [dependencies]
 bevy.workspace = true
+starknet-crypto = "0.7.1"
+tokio = { version = "1.40.0", features = ["rt", "sync"] }
+torii-client = { git = "https://github.com/elton-cs/dojo.git", rev = "401dacfbc753fee14d9dda9b45724c4dafa1b543" }
+torii-grpc = { git = "https://github.com/elton-cs/dojo.git", rev = "401dacfbc753fee14d9dda9b45724c4dafa1b543" }
