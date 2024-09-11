@@ -1,0 +1,3 @@
+[workspace]
+members = ["dojo-plugin", "example-client"]
+resolver = "2"
