@@ -1,3 +1,6 @@
 [workspace]
 members = ["dojo-plugin", "example-client"]
 resolver = "2"
+
+[workspace.dependencies]
+bevy = { version = "0.14.2" }
